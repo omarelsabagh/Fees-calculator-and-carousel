@@ -1,0 +1,744 @@
+*
+{
+    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+
+body
+{
+    font-family: 'Inter', sans-serif;
+}
+h1
+{
+    font-size: 1.8rem;
+    margin: 2rem;
+    color: #636C75;
+}
+
+a:hover
+{
+color: white !important;
+}
+
+/* Chrome, Safari, Edge, Opera */ /*input number remove increment*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */ /*input number remove increment*/
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/*project*/
+input:focus
+{
+   outline-color: #636C75;
+}
+.my-input
+{
+    padding: .2rem 2em;
+   margin: 1rem;
+  
+   
+   
+   
+  
+}
+.all-inputs
+{
+    
+    
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-input::placeholder
+{
+    text-align: center;
+    color: #8897A6;
+}
+label
+{
+    color: #636C75;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 30%;
+  
+    
+  
+    
+    
+
+}
+.my-form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.custom-btn
+{
+    padding: .6rem 2.3rem;
+    margin: 1rem;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 12px;
+    color: #8897A6;
+    font-weight: 600;
+}
+
+.custom-btn:hover
+{
+    background-color: rgb(136, 135, 135);
+    color: white;
+}
+
+.submit
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    color: #636C75;
+}
+.my-buttons
+{
+    margin: 1rem;
+}
+
+.card-left-side
+{
+    
+    width: 30%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 12px;
+}
+.card-left-side img
+{
+    width: 60%;
+ 
+}
+
+.card-labels
+{
+   
+    position: absolute;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    
+    
+   
+  
+}
+
+.card-labels h2
+{
+    margin-top: 1rem;
+    font-size: .8rem;
+    color: #636C75;
+}
+
+.card-labels h3
+{
+    font-size: .8rem;
+    color: #8897A6;
+
+}
+
+.card-section
+{
+  
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 200px;
+    margin-bottom: 2rem;
+   
+}
+.bar
+{
+    height: 20px;
+    width: 400px;
+    background-color: #8FD3EF;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 5px;
+    top: 36%;
+    
+}
+
+.bar2
+{
+    height: 20px;
+    width: 400px;
+    background-color: #8FD3EF;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 5px;
+    top: 56%;
+    
+}
+
+.card-right-section
+{
+    position: relative;
+}
+
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+    label
+    {
+        
+width: 40%;
+    
+    }
+    .all-inputs
+    {
+    
+width: 85%;
+     
+    }
+    .my-buttons
+{
+    margin: 0px;
+}
+.submit
+{
+  
+    margin: .5rem;
+    
+}
+
+.card-section
+{
+  
+    
+    margin-left: 0px;
+   
+}
+.card-left-side
+{
+   
+    width: 50%;
+   
+}
+.card-left-side img
+{
+    width: 70%;
+ 
+}
+
+.card-labels
+{
+   
+   
+    left: 160px;
+  
+}
+.bar
+{
+    
+    width: 210px;
+  
+    top: 33%;
+    
+}
+
+.bar2
+{
+    
+    width: 210px;
+   
+    top: 57%;
+    
+}
+}
+
+@media only screen and (min-width: 510px) {
+    label
+    {
+        
+width: 40%;
+    
+    }
+    .all-inputs
+    {
+    
+width: 85%;
+     
+    }
+    .my-buttons
+{
+    margin: 0px;
+}
+.submit
+{
+  
+    margin: .5rem;
+    
+}
+
+.card-section
+{
+  
+    
+    margin-left: 0px;
+   
+}
+.card-left-side
+{
+   
+    width: 50%;
+   
+}
+.card-left-side img
+{
+    width: 70%;
+ 
+}
+
+.card-labels
+{
+   
+   
+    left: 180px;
+  
+}
+.bar
+{
+    
+    width: 210px;
+  
+    top: 33%;
+    
+}
+
+.bar2
+{
+    
+    width: 210px;
+   
+    top: 57%;
+    
+}
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+    label
+    {
+        
+width: 25%;
+    
+    }
+    .all-inputs
+    {
+    
+width: 85%;
+     
+    }
+    .my-buttons
+{
+    margin: 0px;
+}
+.submit
+{
+  
+    margin: .5rem;
+    
+}
+
+.card-section
+{
+  
+    
+    margin-left: 0px;
+   
+}
+.card-left-side
+{
+   
+    width: 50%;
+   
+}
+.card-left-side img
+{
+    width: 65%;
+ 
+}
+
+.card-labels
+{
+   
+   
+    left: 220px;
+  
+}
+.bar
+{
+    
+    width: 320px;
+  
+    top: 40%;
+    
+}
+
+.bar2
+{
+    
+    width: 320px;
+   
+    top: 53%;
+    
+}
+}
+
+
+@media only screen and (min-width: 990px) {
+
+    label
+    {
+        
+width: 20%;
+    
+    }
+    .all-inputs
+    {
+    
+width: 85%;
+     
+    }
+    .my-buttons
+{
+    margin: 1px;
+}
+.submit
+{
+  
+    margin: 1rem;
+    
+}
+
+.card-section
+{
+  
+    
+    margin-left: 0px;
+   
+}
+.card-left-side
+{
+   
+    width: 36%;
+   
+}
+.card-left-side img
+{
+    width: 66%;
+ 
+}
+
+.card-labels
+{
+   
+   
+    left: 218px;
+  
+}
+.bar
+{
+    
+    width: 400px;
+  
+    top: 39%;
+    
+}
+
+.bar2
+{
+    
+    width: 400px;
+   
+    top: 53%;
+    
+}
+}
+
+@media only screen and (min-width: 1200px) {
+    label
+    {
+        
+        width: 30%;
+    
+    }
+    .all-inputs
+    {
+    
+        width: 40%;
+     
+    }
+    .my-buttons
+{
+    margin: 1rem;
+}
+.submit
+{
+  
+    margin: 1rem;
+    
+}
+
+.card-section
+{
+  
+    
+    margin-left: 200px;
+   
+}
+.card-left-side
+{
+   
+    width: 40%;
+   
+}
+.card-left-side img
+{
+    width: 60%;
+ 
+}
+
+.card-labels
+{
+   
+   
+    left: 220px;
+  
+}
+.bar
+{
+    
+    width: 400px;
+  
+    top: 39%;
+    
+}
+
+.bar2
+{
+    
+    width: 400px;
+   
+    top: 53%;
+    
+}
+
+}   
+
+
+
+
+
+
+/*Modal section*/
+
+
+/*background -parent of all*/
+.overlay
+{
+   
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+   z-index: 10;
+    
+    background-color: rgba(0, 0, 0, .5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.added-to-overlay-by-js
+{
+    display: flex;
+}
+/* image placeholder */
+
+.image-placeholder
+{
+    
+   
+    width: 90px;
+    height: 90px;
+    border-radius: 12px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin: 1rem;
+  
+  
+}
+
+.my-image-class
+{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 12px;
+  
+}
+
+
+.highlighted-image
+{
+    width: 100px;
+    height: 100px;
+   
+}
+
+
+.my-exit-icon
+{
+    position: absolute;
+    right: 3%;
+    top: 5%;
+    font-size: 1.4rem;
+    cursor: pointer;
+     color: black;
+}
+
+.my-exit-icon:hover
+{
+  
+     color: rgb(70, 68, 68);
+}
+/* carousel*/
+
+.carousel
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-arrow-icons 
+{
+    border: solid 3px;
+    border-color:#8897A6;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.my-arrow-icons:hover
+{
+    
+    border-color:#b2b9c0;
+   
+}
+
+/*result*/
+
+.results
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #636C75;
+}
+.results h4
+{
+font-size: .8rem;
+}
+.result-child
+{
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    padding: 3rem;
+    color: #636C75;
+}
+
+.back-bar
+{
+    width: 280px;
+    height: 8px;
+    background-color: #8CD5F1;
+    border-radius: 12px;
+    position: relative;
+    margin: 0px 20px;
+    float: left;
+   
+}
+
+
+.fill-bar
+{
+    position: absolute;
+    width: 80%;
+    border-radius: 12px;
+ top: 0;
+ bottom: 0;
+ right: 0;
+ left: 0;
+ background-color: #5ea4c0;
+}
+
+.type-result
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    margin-top: 1.3rem;
+ 
+   
+}
+
+.type-result h4
+{
+    
+    width: 130px;
+   
+    text-align: left;
+    
+}
+.type-result h5
+{
+    width: 20px;
+}
+
+
+.error
+{
+    color: red;
+    opacity: 0;
+}
+.type-result3 h4
+{
+
+font-weight: bolder;
+}
+
